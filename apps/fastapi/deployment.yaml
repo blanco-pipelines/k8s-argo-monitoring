@@ -10,8 +10,8 @@ metadata:
   namespace: fastapi
 type: Opaque
 stringData:
-  MYSQL_USER: "root"
-  MYSQL_PASSWORD: "rootpassword"
+  MYSQL_USER: "appuser"
+  MYSQL_PASSWORD: "apppassword"
   REDIS_PASSWORD: ""
 ---
 apiVersion: v1

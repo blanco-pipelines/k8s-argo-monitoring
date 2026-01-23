@@ -4,7 +4,7 @@ metadata:
   name: example-application-updater
   namespace: argocd
 spec:
-  namespace: automation-gateway
+  namespace: argocd
   commonUpdateSettings:
     updateStrategy: "semver"
   writeBackConfig:
@@ -19,4 +19,5 @@ spec:
         - alias: "api"
 
           imageName: "docker.io/danblanco/automation-gateway:v1.x"
+
 

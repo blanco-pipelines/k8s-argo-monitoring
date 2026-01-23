@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # or your default branch
+      - 'v*'  # or your default branch
     paths:
       - apps/automation-gateway/src/**
     tags:
@@ -32,4 +32,5 @@ jobs:
       
       - name: Push Docker image
         run: |
+
           docker push danblanco/automation-gateway:${{ env.TAG_NAME }}

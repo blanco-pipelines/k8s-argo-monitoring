@@ -18,6 +18,6 @@ spec:
       images:
         - alias: "api"
 
-          imageName: "docker.io/danblanco/automation-gateway:v1.x"
+          imageName: "danblanco/automation-gateway:v1.x"
 
 

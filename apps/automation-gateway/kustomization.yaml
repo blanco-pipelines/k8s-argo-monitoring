@@ -4,6 +4,6 @@ resources:
   - deployment.yaml
   - image-updater.yaml
 images:
-  - name: docker.io/danblanco/automation-gateway
+  - name: danblanco/automation-gateway
 
     newTag: v1.0.0

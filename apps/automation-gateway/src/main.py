@@ -185,7 +185,7 @@ def health():
     }
 
 
-@app.get("/jobs")
+@app.get("/test-jobs")
 def get_items():
     """Get all items."""
     logger.info("Fetching all items")

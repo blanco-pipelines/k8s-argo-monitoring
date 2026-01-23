@@ -6,7 +6,7 @@ metadata:
 apiVersion: v1
 kind: Secret
 metadata:
-  name: fastapi-secret
+  name: automation-gateway-secret
   namespace: automation-gateway
 type: Opaque
 stringData:

@@ -1,6 +1,5 @@
 # FastAPI Telemetry Application
 
-
 A FastAPI application with OpenTelemetry auto-instrumentation, Prometheus metrics, MySQL, and Redis integration.
 
 ## Building the Docker Image
